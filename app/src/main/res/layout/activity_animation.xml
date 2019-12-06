@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/cl"
+    android:layout_height="match_parent">
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:alignItems="flex_start"
+        app:flexWrap="wrap"
+        app:justifyContent="flex_start">
+
+        <Button
+            android:id="@+id/btn_fade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fade"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_slide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Slide"
+            android:textAllCaps="false" />
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_fade"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Fade"-->
+            <!--android:textAllCaps="false" />-->
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+</android.support.constraint.ConstraintLayout>
